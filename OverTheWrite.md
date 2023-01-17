@@ -26,12 +26,12 @@
      
    ![image](https://user-images.githubusercontent.com/116651808/212819105-ddc6a997-facf-487f-b870-f09bd96ee0ea.png)
 
-    Stack có dạng như trên nên việc ta nhập tràn từ biến buf sẽ thỏa mãn
+  Stack có dạng như trên nên việc ta nhập tràn từ biến buf sẽ thỏa mãn
    
    
 **3. Viết script**
     
-    ![image](https://user-images.githubusercontent.com/116651808/212819528-a8e6dee6-46d6-4dc9-8ed0-4e43c16797d6.png)
+  ![image](https://user-images.githubusercontent.com/116651808/212819528-a8e6dee6-46d6-4dc9-8ed0-4e43c16797d6.png)
 
 **4. Lấy flag**
 
