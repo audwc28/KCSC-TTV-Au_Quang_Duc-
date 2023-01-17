@@ -8,7 +8,8 @@
      
      Em sẽ được file được viết là file ELF 64bit nên em mở file cat bằng ida 64 sẽ thấy soure của hàm main như sau:
      
-   int __cdecl main(int argc, const char **argv, const char **envp)
+  
+  int __cdecl main(int argc, const char **argv, const char **envp)
 {
   int v4; // [rsp+Ch] [rbp-4h]
   int v5; // [rsp+Ch] [rbp-4h]
@@ -37,7 +38,9 @@
   }
   return 0;
 }
-    Đọc hàm main em thấy chương trình sẽ tiến hành thực hiện hàm read_flag()(Kiểm tra hàm này thì thấy đã lưu giá trị flag vào biến flag), sau đó tiếp tục cho người dùng
+  
+  
+  Đọc hàm main em thấy chương trình sẽ tiến hành thực hiện hàm read_flag()(Kiểm tra hàm này thì thấy đã lưu giá trị flag vào biến flag), sau đó tiếp tục cho người dùng
     nhập username và password rồi đem đi so sánh với giá trị đã có sẵn. Nếu đúng thì tiếp tục cho phép nhập vào biến secret và in biến secret rồi kết thúc chương trình.
     Đến đây em nghĩ đến nhập buffer từ biến secret đến biến flag. Em dùng lệnh 'checksec' trong gdb để kiểm tra xem có buffer được không.
     ![image](https://user-images.githubusercontent.com/116651808/212809077-1438d894-e51b-4018-b5fe-4cf951058cc3.png)
