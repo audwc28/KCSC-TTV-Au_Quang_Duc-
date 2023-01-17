@@ -17,16 +17,16 @@
    
 **2. Ý tưởng**
 
-    Sử dụng gdb để xem cho phép nhập bao nhiêu ký tự cho biến buf
+   Sử dụng gdb để xem cho phép nhập bao nhiêu ký tự cho biến buf
     
-    ![image](https://user-images.githubusercontent.com/116651808/212818107-a5285f68-36a8-4081-afef-33bdcf731f80.png)
+   ![image](https://user-images.githubusercontent.com/116651808/212818107-a5285f68-36a8-4081-afef-33bdcf731f80.png)
 
-     Em thấy được biến buf ở vị trí rbp - 0x50 mà chương trình cho phép nhập 0x50 ký tự nên có thể nhập tràn đến rbp. Lúc nhập tràn đẩy các giá trị thỏa mãn theo đề bài
-     vào các biến v8, v9, v7, s1
+    Em thấy được biến buf ở vị trí rbp - 0x50 mà chương trình cho phép nhập 0x50 ký tự nên có thể nhập tràn đến rbp. Lúc nhập tràn đẩy các giá trị thỏa mãn theo đề bài
+    vào các biến v8, v9, v7, s1
      
-     ![image](https://user-images.githubusercontent.com/116651808/212819105-ddc6a997-facf-487f-b870-f09bd96ee0ea.png)
+   ![image](https://user-images.githubusercontent.com/116651808/212819105-ddc6a997-facf-487f-b870-f09bd96ee0ea.png)
 
-     Stack có dạng như trên nên việc ta nhập tràn từ biến buf sẽ thỏa mãn
+    Stack có dạng như trên nên việc ta nhập tràn từ biến buf sẽ thỏa mãn
    
    
 **3. Viết script**
