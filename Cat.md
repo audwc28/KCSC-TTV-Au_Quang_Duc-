@@ -6,38 +6,10 @@
      
   ![image](https://user-images.githubusercontent.com/116651808/212807726-3f02e914-3565-49b9-8246-2cc62cf8145a.png)
      
-  Em sẽ được file được viết là file ELF 64bit nên em mở file cat bằng ida 64 sẽ thấy soure của hàm main như sau:
-     
+  Em sẽ được file được viết là file ELF 64bit nên em mở file cat bằng ida 64 sẽ thấy soure của hàm main như sau:     
   
-  int __cdecl main(int argc, const char **argv, const char **envp)
-{
-  int v4; // [rsp+Ch] [rbp-4h]
-  int v5; // [rsp+Ch] [rbp-4h]
+  ![image](https://user-images.githubusercontent.com/116651808/212927906-184e928f-c703-489f-a670-c3d376e183c4.png)
 
-  init(argc, argv, envp);
-  read_flag();
-  printf("Username: ");
-  v4 = read(0, username, 0x20uLL);
-  if ( username[v4 - 1] == 10 )
-    username[v4 - 1] = 0;
-  printf("Password: ");
-  v5 = read(0, password, 0x20uLL);
-  if ( password[v5 - 1] == 10 )
-    password[v5 - 1] = 0;
-  if ( !strcmp(username, "KCSC_4dm1n1str4t0r") && !strcmp(password, passwd) )
-  {
-    puts("Logged in!");
-    printf("Your secret: ");
-    read(0, secret, 0x200uLL);
-    printf("Saving secret \"%s\"...\n", secret);
-    puts("Done! Exiting...");
-  }
-  else
-  {
-    puts("Unauthorized access is forbidden!");
-  }
-  return 0;
-}
   
   
   Đọc hàm main em thấy chương trình sẽ tiến hành thực hiện hàm read_flag()(Kiểm tra hàm này thì thấy đã lưu giá trị flag vào biến flag), sau đó tiếp tục cho người dùng
