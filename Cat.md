@@ -4,7 +4,7 @@
  
      Em sẽ dùng lệnh 'file' để tìm thông tin của file và có kết quả như sau
      
-     ![image](https://user-images.githubusercontent.com/116651808/212807726-3f02e914-3565-49b9-8246-2cc62cf8145a.png)
+  ![image](https://user-images.githubusercontent.com/116651808/212807726-3f02e914-3565-49b9-8246-2cc62cf8145a.png)
      
      Em sẽ được file được viết là file ELF 64bit nên em mở file cat bằng ida 64 sẽ thấy soure của hàm main như sau:
      
