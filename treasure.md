@@ -1,4 +1,4 @@
-**Writeup treasure from pwn**
+**Writeup treasure of pwn**
 
    Đọc theo hướng dẫn thì em thấy người viết bảo flag được chia làm 3 phần được giấu trong file. Em chạy thử file file thì thấy được phần 1 như sau
    ![image](https://user-images.githubusercontent.com/116651808/212811939-8496dd04-4d0d-4ca8-8735-8fd3aa429527.png)
