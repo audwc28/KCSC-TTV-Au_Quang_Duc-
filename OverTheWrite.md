@@ -1,4 +1,4 @@
-**Writeup OverTheWrite from Pwn**
+**Writeup OverTheWrite of Pwn**
 
 **1. Tìm lỗi**
    Em dùng lệnh 'file' để kiêm tra file đã cho thì xác định được là file ELF 64bit nên em mở file bằng IDA 64
