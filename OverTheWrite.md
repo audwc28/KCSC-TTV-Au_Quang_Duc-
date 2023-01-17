@@ -16,6 +16,7 @@
    
    
 **2. Ý tưởng**
+
     Sử dụng gdb để xem cho phép nhập bao nhiêu ký tự cho biến buf
     ![image](https://user-images.githubusercontent.com/116651808/212818107-a5285f68-36a8-4081-afef-33bdcf731f80.png)
 
