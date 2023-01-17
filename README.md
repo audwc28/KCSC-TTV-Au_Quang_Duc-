@@ -1,2 +1,0 @@
-# KCSC-TTV
-CTF
