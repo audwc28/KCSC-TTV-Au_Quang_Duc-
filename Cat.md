@@ -1,5 +1,4 @@
- * Writeup Cat from Pwn *
- 
+ **Writeup Cat from Pwn** 
  **#1 Tìm lỗi**
      Em sẽ dùng lệnh 'file' để tìm thông tin của file và có kết quả như sau
      ![image](https://user-images.githubusercontent.com/116651808/212807726-3f02e914-3565-49b9-8246-2cc62cf8145a.png)
