@@ -2,9 +2,9 @@
 
 **1. Tìm lỗi**
     
-    Ta có mã nguồn như sau:
+   Ta có mã nguồn như sau:
     
-    ![image](https://user-images.githubusercontent.com/116651808/213092464-71ff7c75-34a4-4a7a-8499-2bfd5140e645.png)
+   ![image](https://user-images.githubusercontent.com/116651808/213092464-71ff7c75-34a4-4a7a-8499-2bfd5140e645.png)
 
 
    Ở hàm main có thể tận dụng lỗi bof ở lệnh scanf. Khi xem thêm hàm jmp2 thì thấy có câu lệnh đặc biệt là system(command)
