@@ -5,7 +5,7 @@
     Ta có mã nguồn như sau:
     
     
-    #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 int jmp = 0;
